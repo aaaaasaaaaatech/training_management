@@ -11,7 +11,7 @@
     <li class="nav-item">
       <a href="#" class="nav-link active" aria-current="page">
         <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
-        Home
+        <%= link_to '記録する', new_boxing_path, method: :get %>
       </a>
     </li>
     <li>
@@ -56,4 +56,12 @@
 </div>
 
 <h1>トレマネ~便利な運動管理アプリ~</h1>
+  <!-- <%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "btn btn-danger"  %>
+  <%= link_to 'ログイン', new_user_session_path, method: :get, class: "btn btn-danger"  %> -->
 
+  <% if user_signed_in? %>
+    <%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "btn btn-danger"  %>
+    <%= link_to current_user.name, "#", class: "user-nickname"  %>
+  <% elsif %>
+  <%= link_to 'ログイン', new_user_session_path, method: :get, class: "btn btn-danger"  %>
+  <% end %>
