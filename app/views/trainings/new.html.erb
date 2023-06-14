@@ -1,0 +1,13 @@
+<!-- <%= form_with(model: @model) do |form| %>
+  <%= form.date_field :date, value: Date.current %>
+  <%= form.submit %>
+<% end %> -->
+
+<%= form_with model: @training, url:trainings_path, local: true do |f| %>
+<div class="weight-bold-text">
+  ボクシング
+  <span class="indispensable">必須</span>
+</div>
+<%= f.collection_select(:boxing_id, Boxing.all, :id, :name, {}, {class:"select-box"}) %>
+<%= f.submit "投稿する" ,class:"btn" %>
+<% end %>
