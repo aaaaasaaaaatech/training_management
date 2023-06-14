@@ -3,7 +3,9 @@
   <%= form.submit %>
 <% end %> -->
 
-<%= form_with model: @training, url:trainings_path, local: true do |f| %>
+<%= flash[:notice] %>
+<%= form_with model: @trainings, url:trainings_path, local: true do |f| %>
+
 <div class="weight-bold-text">
   ボクシング
   <span class="indispensable">必須</span>
