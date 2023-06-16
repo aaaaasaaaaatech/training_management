@@ -65,3 +65,12 @@
   <% elsif %>
   <%= link_to 'ログイン', new_user_session_path, method: :get, class: "btn btn-danger"  %>
   <% end %>
+
+
+  <!-- 一覧表示 -->
+  <% @training.reverse_each do |training| %>
+    <%= link_to edit_training_path(training.id) do %>
+        <%= training.id %>
+        <%= training.boxing.name %>
+      <% end %>
+  <% end %>

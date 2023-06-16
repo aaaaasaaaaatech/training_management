@@ -4,12 +4,13 @@
 <% end %> -->
 
 <%= flash[:notice] %>
-<%= form_with model: @training, url:trainings_path, local: true do |f| %>
-
+<%= form_with model: @training, url:training_path, local: true do |f| %>
 <div class="weight-bold-text">
-  ボクシング
+  ボクシング(変更画面)
   <span class="indispensable">必須</span>
 </div>
 <%= f.collection_select(:boxing_id, Boxing.all, :id, :name, {}, {class:"select-box"}) %>
-<%= f.submit "投稿する" ,class:"btn" %>
+<%= f.submit "変更する" ,class:"btn" %>
 <% end %>
+
+<%= button_to "削除する", training_path(@training), method: :delete, class:"btn" %>
