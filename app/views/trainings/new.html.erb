@@ -2,14 +2,14 @@
   <%= form.date_field :date, value: Date.current %>
   <%= form.submit %>
 <% end %> -->
-
-<%= flash[:notice] %>
-<%= form_with model: @training, url:trainings_path, local: true do |f| %>
-
-<div class="weight-bold-text">
-  ボクシング
-  <span class="indispensable">必須</span>
+<div class="new_main">
+<div class="boxing_form">
+  <%= flash[:notice] %>
+  <%= form_with model: @training, url:trainings_path, local: true do |f| %>
+    <h1>ボクシングの記録</h1>
+  <%= f.collection_select(:boxing_id, Boxing.all, :id, :name, {}, {class:"select-box"}) %><span class="indispensable">必須</span>
+  <br>
+  <%= f.submit "投稿する" ,class:"btn" %>
+  <% end %>
 </div>
-<%= f.collection_select(:boxing_id, Boxing.all, :id, :name, {}, {class:"select-box"}) %>
-<%= f.submit "投稿する" ,class:"btn" %>
-<% end %>
+</div>
