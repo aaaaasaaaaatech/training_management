@@ -21,4 +21,30 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* アプリケーション名 Training Management
+
+* アプリケーション概要 FitBoxingという家庭用フィットネスゲームの実施記録アプリ
+
+* URL:https://training-management-owm3.onrender.com/
+
+* テスト用アカウント メールアドレス:asa@gmail.com boxing01
+
+* 利用方法 新規会員登録→記録の投稿→記録の編集･削除
+
+* アプリケーションを作成した背景
+
+* 洗い出した要件 https://docs.google.com/spreadsheets/d/1yBcflpxmBnGDoCnEjOmfeviiRFU3gKklY3cNG9Zb60g/edit#gid=982722306
+
+* 実装した機能についての画像やGIFおよびその説明※
+
+* 実装予定の機能
+
+* データベース設計図[![Image from Gyazo](https://i.gyazo.com/8ede0ebdcd375afe427f530cc9fb51d7.png)](https://gyazo.com/8ede0ebdcd375afe427f530cc9fb51d7)
+
+* 画面遷移図[![Image from Gyazo](https://i.gyazo.com/8eb2f35de09124ed2835ac511c5e598c.png)](https://gyazo.com/8eb2f35de09124ed2835ac511c5e598c)
+
+* 開発環境 Ruby
+
+* ローカルでの動作方法 git cloneしてから、ローカルで動作をさせるまでに必要なコマンドを記載。
+
+* 工夫したポイント 制作背景・使用技術・開発方法・タスク管理など、企業へＰＲしたい事柄を記載。
