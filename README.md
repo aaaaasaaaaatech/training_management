@@ -21,30 +21,52 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* アプリケーション名 Training Management
+# アプリケーション名
+ Training Management
 
-* アプリケーション概要 FitBoxingという家庭用フィットネスゲームの実施記録アプリ
+# アプリケーション概要 
+FitBoxingという家庭用フィットネスゲームの実施を記録アプリ  
+自分の好きなYouTubeの動画をリスト化して､実施した筋トレ等を記録するアプリ(今後実装予定)
 
-* URL:https://training-management-owm3.onrender.com/
 
-* テスト用アカウント メールアドレス:asa@gmail.com boxing01
+# URL
+https://training-management-owm3.onrender.com/
 
-* 利用方法 新規会員登録→記録の投稿→記録の編集･削除
+# テスト用アカウント 
+メールアドレス:asa@gmail.com  
+パスワード:boxing01
 
-* アプリケーションを作成した背景
+# 利用方法 
+新規会員登録→記録の投稿→記録の編集･削除
 
-* 洗い出した要件 https://docs.google.com/spreadsheets/d/1yBcflpxmBnGDoCnEjOmfeviiRFU3gKklY3cNG9Zb60g/edit#gid=982722306
+# アプリケーションを作成した背景
+フィットネスゲームや､自分が好きな筋トレ等の動画をリスト化して､自分で何を実施したのかをスマホ等で管理できる機能がほしいと思い作成に至った
 
-* 実装した機能についての画像やGIFおよびその説明※
+# 洗い出した要件
+ https://docs.google.com/spreadsheets/d/1yBcflpxmBnGDoCnEjOmfeviiRFU3gKklY3cNG9Zb60g/edit#gid=982722306
 
-* 実装予定の機能
+# 実装した機能についての画像やGIFおよびその説明※
 
-* データベース設計図[![Image from Gyazo](https://i.gyazo.com/8ede0ebdcd375afe427f530cc9fb51d7.png)](https://gyazo.com/8ede0ebdcd375afe427f530cc9fb51d7)
 
-* 画面遷移図[![Image from Gyazo](https://i.gyazo.com/8eb2f35de09124ed2835ac511c5e598c.png)](https://gyazo.com/8eb2f35de09124ed2835ac511c5e598c)
+# 実装予定の機能
+･Google APIを使った ログイン機能の追加  
+･YouTube動画をリスト化して､YouTubeの動画で実施した筋トレ等を投稿する機能    
+･カレンダー機能を用意して､カレンダーをクリックすると投稿済みの記録を見られるようにすること  
+･詳細ページの用意  
+･ユーザー情報の編集画面と､好きなYouTube動画をユーザー自身で登録と編集ができる機能とビューの用意
+ 
 
-* 開発環境 Ruby
+# データベース設計図
+[![Image from Gyazo](https://i.gyazo.com/8ede0ebdcd375afe427f530cc9fb51d7.png)](https://gyazo.com/8ede0ebdcd375afe427f530cc9fb51d7)
 
-* ローカルでの動作方法 git cloneしてから、ローカルで動作をさせるまでに必要なコマンドを記載。
+# 画面遷移図
+[![Image from Gyazo](https://i.gyazo.com/8eb2f35de09124ed2835ac511c5e598c.png)](https://gyazo.com/8eb2f35de09124ed2835ac511c5e598c)
 
-* 工夫したポイント 制作背景・使用技術・開発方法・タスク管理など、企業へＰＲしたい事柄を記載。
+# 開発環境
+ Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code
+
+# ローカルでの動作方法
+ git cloneしてから、ローカルで動作をさせるまでに必要なコマンドを記載。
+
+# 工夫したポイント 
+制作背景・使用技術・開発方法・タスク管理など、企業へＰＲしたい事柄を記載。
