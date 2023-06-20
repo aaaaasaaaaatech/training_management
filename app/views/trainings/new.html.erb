@@ -1,15 +1,17 @@
-<!-- <%= form_with(model: @model) do |form| %>
-  <%= form.date_field :date, value: Date.current %>
-  <%= form.submit %>
-<% end %> -->
-<div class="new_main">
-<div class="boxing_form">
-  <%= flash[:notice] %>
-  <%= form_with model: @training, url:trainings_path, local: true do |f| %>
-    <h1>ボクシングの記録</h1>
-  <%= f.collection_select(:boxing_id, Boxing.all, :id, :name, {}, {class:"select-box"}) %><span class="indispensable">必須</span>
-  <br>
-  <%= f.submit "投稿する" ,class:"btn" %>
-  <% end %>
-</div>
+
+<%= render "shared/sideber" %>
+
+<div class="new_main test ">
+  <div class="boxing_form border p-3">
+    <%= flash[:notice] %>
+    <div class="p-3">
+      <%= form_with model: @training, url: trainings_path, local: true do |f| %>
+        <h1>ボクシングの記録</h1>
+        <div class="form-group">
+          <%= f.collection_select(:boxing_id, Boxing.all, :id, :name, {}, { class: "form-control select-box" }) %><span class="indispensable">必須</span>
+        </div>
+        <%= f.submit "投稿する", class: "btn btn-primary" %>
+      <% end %>
+    </div>
+  </div>
 </div>

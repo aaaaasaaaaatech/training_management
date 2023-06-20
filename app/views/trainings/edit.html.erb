@@ -2,16 +2,22 @@
   <%= form.date_field :date, value: Date.current %>
   <%= form.submit %>
 <% end %> -->
+<%= render "shared/sideber" %>
 
-<%= flash[:notice] %>
-<%= form_with model: @training, url:training_path, local: true do |f| %>
-<div class="weight-bold-text">
-  ボクシング(変更画面)
-  <span class="indispensable">必須</span>
+<div class="new_main test ">
+  <div class="boxing_form border p-3">
+    <%= flash[:notice] %>
+    <div class="p-3"></div>
+      <%= form_with model: @training, url:training_path, local: true do |f| %>
+      <div class="weight-bold-text">
+        ボクシング(変更画面)
+        <span class="indispensable">必須</span>
+      </div>
+      <%= f.collection_select(:boxing_id, Boxing.all, :id, :name, {}, {class:"select-box"}) %>
+      <%= f.submit "変更する" ,class:"btn" %>
+      <% end %>
+    </div>
+  </div>
 </div>
-<%= f.collection_select(:boxing_id, Boxing.all, :id, :name, {}, {class:"select-box"}) %>
-<%= f.submit "変更する" ,class:"btn" %>
-<% end %>
-
-<%= button_to "削除する", training_path(@training), method: :delete, class:"btn" %>
+    <%= button_to "削除する", training_path(@training), method: :delete, class:"btn" %>
 
