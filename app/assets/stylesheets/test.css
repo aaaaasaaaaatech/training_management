@@ -1,13 +1,12 @@
 .test{
   max-height: 100vh;
+  width: 100vw;
   
   }
 
 .new_main{
   display: flex;
   justify-content: center;
-  margin-top: 200px;
-  
 }
 
 .boxing_form{
@@ -17,3 +16,67 @@
 .indispensable{
   color: red;
 }
+
+.new_main {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .boxing_form {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  h1 {
+    font-family: 'Arial', sans-serif;
+    color: #FF69B4;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .select-box {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #FF69B4;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .indispensable {
+    color: #FF69B4;
+    font-weight: bold;
+  }
+
+  .btn-submit {
+    background-color: #FF69B4;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn-submit:hover {
+    background-color: #FF4785;
+  }
+
+  .color:hover{
+    background-color: #FF69B4;
+    color: #FFFFFF;
+  }
+
+  .f-color:hover{
+    color: #FFFFFF;
+  }
