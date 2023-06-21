@@ -25,8 +25,8 @@ Things you may want to cover:
  Training Management
 
 # アプリケーション概要 
-FitBoxingという家庭用フィットネスゲームの実施を記録アプリ  
-自分の好きなYouTubeの動画をリスト化して､実施した筋トレ等を記録するアプリ(今後実装予定)
+･家庭用フィットネスゲームの実施を記録アプリ  
+･自分の好きなYouTubeの動画をリスト化して､実施した筋トレ等を記録するアプリ(今後実装予定)
 
 
 # URL
@@ -45,9 +45,6 @@ https://training-management-owm3.onrender.com/
 # 洗い出した要件
  https://docs.google.com/spreadsheets/d/1yBcflpxmBnGDoCnEjOmfeviiRFU3gKklY3cNG9Zb60g/edit#gid=982722306
 
-# 実装した機能についての画像やGIFおよびその説明※
-
-
 # 実装予定の機能
 ･Google APIを使った ログイン機能の追加  
 ･YouTube動画をリスト化して､YouTubeの動画で実施した筋トレ等を投稿する機能    
@@ -57,16 +54,17 @@ https://training-management-owm3.onrender.com/
  
 
 # データベース設計図
-[![Image from Gyazo](https://i.gyazo.com/8ede0ebdcd375afe427f530cc9fb51d7.png)](https://gyazo.com/8ede0ebdcd375afe427f530cc9fb51d7)
+[![Image from Gyazo](https://i.gyazo.com/efaaf57476e1b9d42a608a6ceff011fb.png)](https://gyazo.com/efaaf57476e1b9d42a608a6ceff011fb)
 
 # 画面遷移図
-[![Image from Gyazo](https://i.gyazo.com/8eb2f35de09124ed2835ac511c5e598c.png)](https://gyazo.com/8eb2f35de09124ed2835ac511c5e598c)
+[![Image from Gyazo](https://i.gyazo.com/c9efad318bcebc1eb0815f0a88b448a2.png)](https://gyazo.com/c9efad318bcebc1eb0815f0a88b448a2)
 
 # 開発環境
  Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code
 
 # ローカルでの動作方法
- git cloneしてから、ローカルで動作をさせるまでに必要なコマンドを記載。
+ git clone後、ターミナルでrails sコマンドにて起動
 
 # 工夫したポイント 
-制作背景・使用技術・開発方法・タスク管理など、企業へＰＲしたい事柄を記載。
+･まずは自分が欲しい機能を実装したアプリを作ることを目標としていた｡  
+･最終課題で取り組んだスケジュール､作業工程を参考に､オリジナルアプリに取り組んだ｡
