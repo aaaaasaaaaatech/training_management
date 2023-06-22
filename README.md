@@ -76,7 +76,7 @@ https://training-management-owm3.onrender.com/
 ･詳細ページの用意  
 ･ユーザー情報の編集画面と､好きなYouTube動画をユーザー自身で登録と編集ができる機能とビューの用意
 
-# 実装予定の機能(現在実装済みのもの) 
+# アプリのGIF(現在実装済みのもの) 
 ユーザー登録とログイン  
 https://gyazo.com/0c3d25790e478e39389d8d05238a6040
 
