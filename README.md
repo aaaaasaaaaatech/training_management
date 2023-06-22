@@ -54,7 +54,7 @@ https://training-management-owm3.onrender.com/
  
 
 # データベース設計図
-[![Image from Gyazo](https://i.gyazo.com/efaaf57476e1b9d42a608a6ceff011fb.png)](https://gyazo.com/efaaf57476e1b9d42a608a6ceff011fb)
+[![Image from Gyazo](https://i.gyazo.com/296287b35df8187af791e571addb6268.png)](https://gyazo.com/296287b35df8187af791e571addb6268)
 
 # 画面遷移図
 [![Image from Gyazo](https://i.gyazo.com/c9efad318bcebc1eb0815f0a88b448a2.png)](https://gyazo.com/c9efad318bcebc1eb0815f0a88b448a2)
