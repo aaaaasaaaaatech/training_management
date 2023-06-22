@@ -18,14 +18,14 @@
         <% @training.reverse_each do |training| %>
           <div class="col-md-6">
             <%= link_to edit_training_path(training.id) do %>
-            
               <div class="card p-3 mb-3">
                 <figure class="p-3 mb-0">
                   <blockquote class="blockquote">
                     <p><%= training.boxing.name %></p>
                   </blockquote>
                   <figcaption class="blockquote-footer mb-0 text-muted">
-                    <%= l training.created_at %></cite>
+                    <%= l training.created_at %>
+                  </cite>
                   </figcaption>
                 </figure>
               </div>
