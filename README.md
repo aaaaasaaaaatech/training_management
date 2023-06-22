@@ -87,7 +87,10 @@ https://training-management-owm3.onrender.com/
 [![Image from Gyazo](https://i.gyazo.com/07ca698f8ca19ffb90603b2db89ea2ff.gif)](https://gyazo.com/07ca698f8ca19ffb90603b2db89ea2ff)
 
 編集  
-[![Image from Gyazo](https://i.gyazo.com/14fab9ecadcc1f01ef1d26b07b892bf1.gif)](https://gyazo.com/14fab9ecadcc1f01ef1d26b07b892bf1)
+[![Image from Gyazo](https://i.gyazo.com/2ad709a41253d11dc5b7ca39adc79e25.gif)](https://gyazo.com/2ad709a41253d11dc5b7ca39adc79e25)
+
+削除  
+[![Image from Gyazo](https://i.gyazo.com/ef0a5690cf35600b85bc4f33e7e864e6.gif)](https://gyazo.com/ef0a5690cf35600b85bc4f33e7e864e6)
  
 
 # データベース設計図
