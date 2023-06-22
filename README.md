@@ -78,16 +78,16 @@ https://training-management-owm3.onrender.com/
 
 # アプリのGIF(現在実装済みのもの) 
 ユーザー登録とログイン  
-https://gyazo.com/0c3d25790e478e39389d8d05238a6040
+[![Image from Gyazo](https://i.gyazo.com/0c3d25790e478e39389d8d05238a6040.gif)](https://gyazo.com/0c3d25790e478e39389d8d05238a6040)
 
 新規投稿  
-https://gyazo.com/b2b8034b462f46f89f288116553096f5
+[![Image from Gyazo](https://i.gyazo.com/b2b8034b462f46f89f288116553096f5.gif)](https://gyazo.com/b2b8034b462f46f89f288116553096f5)
 
 投稿した最新のものが左上に来る  
-https://gyazo.com/07ca698f8ca19ffb90603b2db89ea2ff
+[![Image from Gyazo](https://i.gyazo.com/07ca698f8ca19ffb90603b2db89ea2ff.gif)](https://gyazo.com/07ca698f8ca19ffb90603b2db89ea2ff)
 
 編集  
-https://gyazo.com/14fab9ecadcc1f01ef1d26b07b892bf1
+[![Image from Gyazo](https://i.gyazo.com/14fab9ecadcc1f01ef1d26b07b892bf1.gif)](https://gyazo.com/14fab9ecadcc1f01ef1d26b07b892bf1)
  
 
 # データベース設計図
