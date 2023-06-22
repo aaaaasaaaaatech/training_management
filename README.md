@@ -75,7 +75,20 @@ https://training-management-owm3.onrender.com/
 ･カレンダー機能を用意して､カレンダーをクリックすると投稿済みの記録を見られるようにすること  
 ･詳細ページの用意  
 ･ユーザー情報の編集画面と､好きなYouTube動画をユーザー自身で登録と編集ができる機能とビューの用意
- 
+
+#アプリのGIF(現在実装済みのもの)
+ユーザー登録とログイン
+https://gyazo.com/0c3d25790e478e39389d8d05238a6040
+
+新規投稿
+https://gyazo.com/b2b8034b462f46f89f288116553096f5
+
+投稿した最新のものが左上に来る
+https://gyazo.com/07ca698f8ca19ffb90603b2db89ea2ff
+
+編集
+https://gyazo.com/14fab9ecadcc1f01ef1d26b07b892bf1
+
 
 # データベース設計図
 [![Image from Gyazo](https://i.gyazo.com/296287b35df8187af791e571addb6268.png)](https://gyazo.com/296287b35df8187af791e571addb6268)
