@@ -1,11 +1,18 @@
 <%= render "shared/sideber" %>
 
 <!-- メインページ -->
+<<<<<<< Updated upstream
 <main class="bg-denger">
 <div class="test bg-black overflow-auto">
+=======
+<div class="index-container" style="background-image: url('/assets/23275555.jpg');">
+  <main class="bg-denger">
+  <div class="test overflow-auto">
+>>>>>>> Stashed changes
   
     <div class="main-logo">
-      <h1>トレマネ~便利な運動管理アプリ~</h1>
+      <h1><%= l Date.today, format: "%Y/%m/%d (%a)" %>の記録</h1>
+      
     </div>
     <!-- <%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "btn btn-danger"  %>
     <%= link_to 'ログイン', new_user_session_path, method: :get, class: "btn btn-danger"  %> -->
@@ -34,5 +41,11 @@
     
     
  
+<<<<<<< Updated upstream
 </div>
 </main>
+=======
+  </div>
+  </main>
+</div>
+>>>>>>> Stashed changes
