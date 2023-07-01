@@ -1,8 +1,8 @@
 class TrainingsController < ApplicationController
-  before_action :authenticate_user!, only: [:new, :edit, :destroy]
+  before_action :authenticate_user!, only: [:index, :new, :edit, :destroy]
   
   def index
-    @training = Training.all
+    @training = Training.where(user_id: current_user.id)
   end
 
   def new
@@ -42,7 +42,7 @@ class TrainingsController < ApplicationController
   private
 
   def training_params
-    params.require(:training).permit(:boxing_id)
+    params.require(:training).permit(:boxing_id).merge(user_id: current_user.id)
   end
 
 end

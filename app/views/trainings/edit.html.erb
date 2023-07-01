@@ -16,8 +16,8 @@
       <%= f.collection_select(:boxing_id, Boxing.all, :id, :name, {}, {class:"select-box"}) %>
       <%= f.submit "変更する" ,class:"btn" %>
       <% end %>
+      <%= button_to "削除する", training_path(@training), method: :delete, class:"btn" %>
     </div>
   </div>
 </div>
-    <%= button_to "削除する", training_path(@training), method: :delete, class:"btn" %>
 
