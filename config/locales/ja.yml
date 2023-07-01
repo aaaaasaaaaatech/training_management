@@ -2,3 +2,8 @@ ja:
   time:
     formats:
       default: "%Y/%m/%d %H:%M"
+  date:
+    formats:
+      default: "%Y/%m/%d %H:%M"
+      original: "%Y/%m/%d (%a)"
+    abbr_day_names: [日, 月, 火, 水, 木, 金, 土]
