@@ -3,6 +3,9 @@ class TrainingsController < ApplicationController
   
   def index
     @training = Training.where(user_id: current_user.id)
+    this_month_calendar = Icalendar::Calendar.new
+    this_month_calendar.publish
+    @this_month_calendar = this_month_calendar.to_ical
   end
 
   def new
