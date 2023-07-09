@@ -6,4 +6,4 @@ ja:
     formats:
       default: "%Y/%m/%d %H:%M"
       original: "%Y/%m/%d (%a)"
-    abbr_day_names: [日, 月, 火, 水, 木, 金, 土]
+    abbr_day_names: [日, M, T, W, T, F, 土]
